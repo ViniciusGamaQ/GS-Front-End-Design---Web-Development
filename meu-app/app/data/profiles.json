@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "nome": "Ana Souza",
+    "cargo": "Desenvolvedora Front-end",
+    "area": "Desenvolvimento",
+    "localizacao": "São Paulo - SP",
+    "foto": "https://via.placeholder.com/150",
+    "resumo": "Desenvolvedora especializada em React e interfaces modernas.",
+    "habilidadesTecnicas": ["React", "JavaScript", "Tailwind", "Next.js"],
+    "softSkills": ["Comunicação", "Trabalho em equipe", "Adaptabilidade"],
+    "experiencias": [
+      {
+        "empresa": "Tech Solutions",
+        "cargo": "Estagiária",
+        "inicio": "2022",
+        "fim": "2023"
+      }
+    ]
+  }
+]
