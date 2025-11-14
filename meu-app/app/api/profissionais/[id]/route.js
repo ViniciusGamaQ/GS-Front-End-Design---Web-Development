@@ -1,12 +1,22 @@
-import profiles from "@/app/data/profiles.json";
+import { NextResponse } from 'next/server'
+import profiles from '../../../../data/profiles.json'
 
-export async function GET(_, { params }) {
-    const id = Number(params.id);
-    const profile = profiles.find(p => p.id === id);
+export async function GET(request, { params }) {
+    try {
+        const profissional = profiles.find(p => p.id === parseInt(params.id))
 
-    if (!profile) {
-        return Response.json({ error: "Profissional não encontrado" }, { status: 404 });
+        if (!profissional) {
+            return NextResponse.json(
+                { error: 'Profissional não encontrado' },
+                { status: 404 }
+            )
+        }
+
+        return NextResponse.json(profissional)
+    } catch (error) {
+        return NextResponse.json(
+            { error: 'Erro ao carregar profissional' },
+            { status: 500 }
+        )
     }
-
-    return Response.json(profile);
 }
