@@ -1,32 +1,41 @@
 "use client";
-import { useEffect, useState } from "react";
 
-export default function ProfessionalList() {
-    const [professionals, setProfessionals] = useState([]);
+import { useState } from "react";
+import ProfileCard from "./ProfileCard";
+import ProfileModal from "./ProfileModal";
 
-    useEffect(() => {
-        async function loadData() {
-            const res = await fetch("/api/profissionais");
-            const data = await res.json();
-            setProfessionals(data);
-        }
-        loadData();
-    }, []);
+export default function ProfessionalList({ profissionais }) {
+    const [selectedProfissional, setSelectedProfissional] = useState(null);
 
     return (
-        <div className="p-6">
-            <h1 className="text-2xl font-bold mb-4">Lista de Profissionais</h1>
-
-            {professionals.length === 0 && <p>Carregando...</p>}
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {professionals.map((prof) => (
-                    <div key={prof.id} className="p-4 border rounded-lg shadow">
-                        <h2 className="text-xl font-semibold">{prof.nome}</h2>
-                        <p className="text-gray-600">{prof.cargo}</p>
-                    </div>
+        <>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                {profissionais.map((profissional) => (
+                    <ProfileCard
+                        key={profissional.id}
+                        profissional={profissional}
+                        onClick={() => setSelectedProfissional(profissional)}
+                    />
                 ))}
             </div>
-        </div>
+
+            {profissionais.length === 0 && (
+                <div className="text-center py-12">
+                    <div className="text-6xl mb-4">🔍</div>
+                    <p className="text-gray-500 dark:text-gray-400 text-lg">
+                        Nenhum profissional encontrado
+                    </p>
+                    <p className="text-gray-400 dark:text-gray-500 text-sm mt-2">
+                        Tente ajustar seus filtros ou termos de busca
+                    </p>
+                </div>
+            )}
+
+            <ProfileModal
+                profissional={selectedProfissional}
+                isOpen={!!selectedProfissional}
+                onClose={() => setSelectedProfissional(null)}
+            />
+        </>
     );
 }
