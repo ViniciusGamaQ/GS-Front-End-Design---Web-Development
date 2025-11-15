@@ -2,7 +2,7 @@
 
 import { useUser } from "../context/UserContext";
 import LoginModal from "./LoginModal";
-import SignupModal from "./SignupModal";
+import SignupModal from "./SignUpModal";
 import OwnProfileModal from "./OwnProfileModal";
 
 export default function Navbar() {
