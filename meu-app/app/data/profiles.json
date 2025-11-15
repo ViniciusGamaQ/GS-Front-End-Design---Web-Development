@@ -1,21 +1,2348 @@
 [
   {
     "id": 1,
-    "nome": "Ana Souza",
-    "cargo": "Desenvolvedora Front-end",
-    "area": "Desenvolvimento",
-    "localizacao": "São Paulo - SP",
-    "foto": "https://via.placeholder.com/150",
-    "resumo": "Desenvolvedora especializada em React e interfaces modernas.",
-    "habilidadesTecnicas": ["React", "JavaScript", "Tailwind", "Next.js"],
-    "softSkills": ["Comunicação", "Trabalho em equipe", "Adaptabilidade"],
+    "nome": "Ana Silva",
+    "foto": "",
+    "cargo": "Desenvolvedora Frontend",
+    "resumo": "Desenvolvedora frontend com 4 anos de experiência em React e TypeScript.",
+    "localizacao": "São Paulo/SP",
+    "area": "Frontend",
+    "habilidadesTecnicas": ["React", "TypeScript", "Next.js", "CSS", "Jest"],
+    "softSkills": ["Comunicação", "Trabalho em equipe", "Resolução de problemas"],
     "experiencias": [
       {
         "empresa": "Tech Solutions",
-        "cargo": "Estagiária",
-        "inicio": "2022",
-        "fim": "2023"
+        "cargo": "Desenvolvedora Frontend",
+        "inicio": "2020-03",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de aplicações web responsivas."
       }
-    ]
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Sistema de Gestão",
+        "link": "https://github.com/ana/sistema-gestao",
+        "descricao": "Sistema completo de gestão empresarial."
+      }
+    ],
+    "certificacoes": ["AWS Certified Developer"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["React", "TypeScript", "Web Performance"]
+  },
+  {
+    "id": 2,
+    "nome": "Carlos Oliveira",
+    "foto": "",
+    "cargo": "Backend Engineer",
+    "resumo": "Engenheiro de software com expertise em arquitetura de sistemas escaláveis.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Backend",
+    "habilidadesTecnicas": ["Node.js", "Python", "MongoDB", "Docker", "AWS"],
+    "softSkills": ["Liderança", "Pensamento crítico", "Mentoria"],
+    "experiencias": [
+      {
+        "empresa": "Data Systems",
+        "cargo": "Backend Engineer",
+        "inicio": "2019-07",
+        "fim": "2024-12",
+        "descricao": "Arquitetura e desenvolvimento de sistemas backend."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "UFRJ",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "API de Pagamentos",
+        "link": "https://github.com/carlos/payment-api",
+        "descricao": "Sistema de pagamentos para transações."
+      }
+    ],
+    "certificacoes": ["AWS Solutions Architect"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Microservices", "Cloud Computing", "System Design"]
+  },
+  {
+    "id": 3,
+    "nome": "Mariana Santos",
+    "foto": "",
+    "cargo": "UX/UI Designer",
+    "resumo": "Designer especializada em experiência do usuário com foco em interfaces intuitivas.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Design",
+    "habilidadesTecnicas": ["Figma", "Adobe XD", "Sketch", "Prototyping"],
+    "softSkills": ["Empatia", "Criatividade", "Comunicação visual"],
+    "experiencias": [
+      {
+        "empresa": "Design Studio",
+        "cargo": "UX/UI Designer",
+        "inicio": "2020-01",
+        "fim": "2024-12",
+        "descricao": "Criação de interfaces e experiência do usuário."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Gráfico",
+        "instituicao": "UFMG",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Redesign App Mobile",
+        "link": "https://behance.net/mariana/redesign-app",
+        "descricao": "Redesign que aumentou a retenção de usuários."
+      }
+    ],
+    "certificacoes": ["Google UX Design Certificate"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Design System", "UX Research", "Product Design"]
+  },
+  {
+    "id": 4,
+    "nome": "Pedro Costa",
+    "foto": "",
+    "cargo": "Data Scientist",
+    "resumo": "Cientista de dados com expertise em machine learning e análise preditiva.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Data Science",
+    "habilidadesTecnicas": ["Python", "R", "SQL", "TensorFlow", "PyTorch"],
+    "softSkills": ["Pensamento analítico", "Curiosidade", "Comunicação técnica"],
+    "experiencias": [
+      {
+        "empresa": "Data Analytics Co",
+        "cargo": "Data Scientist",
+        "inicio": "2021-02",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de modelos preditivos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Estatística",
+        "instituicao": "UFRGS",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Sistema de Recomendação",
+        "link": "https://github.com/pedro/recommendation-system",
+        "descricao": "Engine de recomendação para e-commerce."
+      }
+    ],
+    "certificacoes": ["AWS Machine Learning"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Machine Learning", "Big Data", "Business Intelligence"]
+  },
+  {
+    "id": 5,
+    "nome": "Juliana Costa",
+    "foto": "",
+    "cargo": "DevOps Engineer",
+    "resumo": "Engenheira DevOps com expertise em infraestrutura cloud e automação.",
+    "localizacao": "Curitiba/PR",
+    "area": "DevOps",
+    "habilidadesTecnicas": ["AWS", "Docker", "Kubernetes", "Terraform", "Jenkins"],
+    "softSkills": ["Organização", "Proatividade", "Trabalho sob Pressão"],
+    "experiencias": [
+      {
+        "empresa": "Cloud Solutions",
+        "cargo": "DevOps Engineer",
+        "inicio": "2020-06",
+        "fim": "2024-12",
+        "descricao": "Gestão de infraestrutura cloud e implementação de DevOps."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia da Computação",
+        "instituicao": "UTFPR",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma de CI/CD",
+        "link": "https://github.com/juliana/cicd-platform",
+        "descricao": "Plataforma que reduziu tempo de deploy."
+      }
+    ],
+    "certificacoes": ["AWS Certified DevOps Engineer"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Cloud Computing", "Infra as Code", "Site Reliability"]
+  },
+  {
+    "id": 6,
+    "nome": "Rafael Lima",
+    "foto": "",
+    "cargo": "Mobile Developer",
+    "resumo": "Desenvolvedor mobile com 5 anos de experiência em React Native e iOS nativo.",
+    "localizacao": "Campinas/SP",
+    "area": "Mobile",
+    "habilidadesTecnicas": ["React Native", "Swift", "Kotlin", "Firebase", "Redux"],
+    "softSkills": ["Adaptabilidade", "Criatividade", "Foco no usuário"],
+    "experiencias": [
+      {
+        "empresa": "AppTech",
+        "cargo": "Mobile Developer",
+        "inicio": "2019-08",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de aplicativos móveis para grandes clientes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UNICAMP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App de Delivery",
+        "link": "https://github.com/rafael/delivery-app",
+        "descricao": "Aplicativo com mais de 100k downloads."
+      }
+    ],
+    "certificacoes": ["React Native Certification"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Cross-platform", "Mobile UX", "Performance"]
+  },
+  {
+    "id": 7,
+    "nome": "Fernanda Alves",
+    "foto": "",
+    "cargo": "Full Stack Developer",
+    "resumo": "Desenvolvedora full stack com experiência em JavaScript e Python.",
+    "localizacao": "Salvador/BA",
+    "area": "Full Stack",
+    "habilidadesTecnicas": ["JavaScript", "Python", "Django", "React", "PostgreSQL"],
+    "softSkills": ["Versatilidade", "Aprendizado rápido", "Visão sistêmica"],
+    "experiencias": [
+      {
+        "empresa": "Digital Solutions",
+        "cargo": "Full Stack Developer",
+        "inicio": "2020-09",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de sistemas web completos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise de Sistemas",
+        "instituicao": "UFBA",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma E-commerce",
+        "link": "https://github.com/fernanda/ecommerce-platform",
+        "descricao": "Plataforma completa de e-commerce."
+      }
+    ],
+    "certificacoes": ["Full Stack Open"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["JavaScript", "Python", "Web Applications"]
+  },
+  {
+    "id": 8,
+    "nome": "Bruno Santos",
+    "foto": "",
+    "cargo": "QA Engineer",
+    "resumo": "Engenheiro de qualidade de software com expertise em automação de testes.",
+    "localizacao": "Florianópolis/SC",
+    "area": "QA",
+    "habilidadesTecnicas": ["Selenium", "Cypress", "Jest", "TestNG", "Appium"],
+    "softSkills": ["Atenção a detalhes", "Pensamento crítico", "Metodologia"],
+    "experiencias": [
+      {
+        "empresa": "Quality Assurance Ltd",
+        "cargo": "QA Engineer",
+        "inicio": "2021-01",
+        "fim": "2024-12",
+        "descricao": "Implementação de processos de teste e qualidade."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "UDESC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Framework de Testes",
+        "link": "https://github.com/bruno/test-framework",
+        "descricao": "Framework de automação de testes personalizado."
+      }
+    ],
+    "certificacoes": ["ISTQB Certified Tester"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Test Automation", "Quality Assurance", "CI/CD"]
+  },
+  {
+    "id": 9,
+    "nome": "Camila Rodrigues",
+    "foto": "",
+    "cargo": "Product Manager",
+    "resumo": "Gerente de produtos com background técnico e experiência em gestão ágil.",
+    "localizacao": "Recife/PE",
+    "area": "Product",
+    "habilidadesTecnicas": ["SQL", "Figma", "JIRA", "Mixpanel", "Google Analytics"],
+    "softSkills": ["Liderança", "Comunicação", "Visão de negócio"],
+    "experiencias": [
+      {
+        "empresa": "Product Labs",
+        "cargo": "Product Manager",
+        "inicio": "2020-03",
+        "fim": "2024-12",
+        "descricao": "Gestão de roadmap e desenvolvimento de produtos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "UFPE",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Lançamento SaaS",
+        "link": "https://product.com/saas-launch",
+        "descricao": "Produto que alcançou 10k usuários em 6 meses."
+      }
+    ],
+    "certificacoes": ["PMI-ACP"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Product Strategy", "UX", "Data-driven Decisions"]
+  },
+  {
+    "id": 10,
+    "nome": "Diego Martins",
+    "foto": "",
+    "cargo": "Security Engineer",
+    "resumo": "Especialista em segurança da informação e pentesting.",
+    "localizacao": "Brasília/DF",
+    "area": "Security",
+    "habilidadesTecnicas": ["Kali Linux", "Metasploit", "Wireshark", "Burp Suite", "OWASP"],
+    "softSkills": ["Ética", "Discrição", "Pensamento analítico"],
+    "experiencias": [
+      {
+        "empresa": "CyberSecure",
+        "cargo": "Security Engineer",
+        "inicio": "2021-04",
+        "fim": "2024-12",
+        "descricao": "Testes de penetração e auditoria de segurança."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Segurança da Informação",
+        "instituicao": "UnB",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Framework de Segurança",
+        "link": "https://github.com/diego/security-framework",
+        "descricao": "Framework para testes de segurança automatizados."
+      }
+    ],
+    "certificacoes": ["CEH", "CISSP"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Cybersecurity", "Pentesting", "Network Security"]
+  },
+  {
+    "id": 11,
+    "nome": "Larissa Souza",
+    "foto": "",
+    "cargo": "Data Analyst",
+    "resumo": "Analista de dados com expertise em BI e visualização de dados.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Data Analysis",
+    "habilidadesTecnicas": ["SQL", "Power BI", "Tableau", "Excel", "Python"],
+    "softSkills": ["Análise crítica", "Comunicação", "Storytelling"],
+    "experiencias": [
+      {
+        "empresa": "Data Insights",
+        "cargo": "Data Analyst",
+        "inicio": "2020-07",
+        "fim": "2024-12",
+        "descricao": "Análise de dados e criação de dashboards para decisões estratégicas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Economia",
+        "instituicao": "UFC",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard Executivo",
+        "link": "https://github.com/larissa/executive-dashboard",
+        "descricao": "Dashboard usado pela diretoria para tomada de decisão."
+      }
+    ],
+    "certificacoes": ["Google Data Analytics"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Business Intelligence", "Data Visualization", "Analytics"]
+  },
+  {
+    "id": 12,
+    "nome": "Thiago Pereira",
+    "foto": "",
+    "cargo": "Cloud Architect",
+    "resumo": "Arquiteto de cloud com expertise em multi-cloud e migrações.",
+    "localizacao": "Manaus/AM",
+    "area": "Cloud",
+    "habilidadesTecnicas": ["AWS", "Azure", "GCP", "Terraform", "Kubernetes"],
+    "softSkills": ["Visão arquitetural", "Liderança técnica", "Estratégia"],
+    "experiencias": [
+      {
+        "empresa": "Cloud Consulting",
+        "cargo": "Cloud Architect",
+        "inicio": "2019-11",
+        "fim": "2024-12",
+        "descricao": "Arquitetura de soluções cloud para enterprise."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia da Computação",
+        "instituicao": "UFAM",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Migração Multi-cloud",
+        "link": "https://github.com/thiago/multi-cloud-migration",
+        "descricao": "Migração de 200+ servidores para cloud."
+      }
+    ],
+    "certificacoes": ["AWS Solutions Architect Pro", "Azure Architect"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Multi-cloud", "Cloud Native", "Enterprise Architecture"]
+  },
+  {
+    "id": 13,
+    "nome": "Patrícia Nunes",
+    "foto": "",
+    "cargo": "Scrum Master",
+    "resumo": "Scrum Master certificada com experiência em transformação ágil.",
+    "localizacao": "Vitória/ES",
+    "area": "Agile",
+    "habilidadesTecnicas": ["JIRA", "Confluence", "Miro", "Scrum", "Kanban"],
+    "softSkills": ["Facilitação", "Mediação", "Liderança servidora"],
+    "experiencias": [
+      {
+        "empresa": "Agile Transform",
+        "cargo": "Scrum Master",
+        "inicio": "2020-02",
+        "fim": "2024-12",
+        "descricao": "Implementação de frameworks ágeis em múltiplos times."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Psicologia",
+        "instituicao": "UVV",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Transformação Ágil",
+        "link": "https://agilecase.com/transformacao",
+        "descricao": "Case de transformação ágil em empresa tradicional."
+      }
+    ],
+    "certificacoes": ["PSM I", "PSM II"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Agile Coaching", "Team Facilitation", "Organizational Agility"]
+  },
+  {
+    "id": 14,
+    "nome": "Ricardo Ferreira",
+    "foto": "",
+    "cargo": "Blockchain Developer",
+    "resumo": "Desenvolvedor blockchain com expertise em smart contracts e DeFi.",
+    "localizacao": "Goiânia/GO",
+    "area": "Blockchain",
+    "habilidadesTecnicas": ["Solidity", "Web3.js", "Ethereum", "Smart Contracts", "Truffle"],
+    "softSkills": ["Inovação", "Pensamento descentralizado", "Visão futurista"],
+    "experiencias": [
+      {
+        "empresa": "BlockChain Labs",
+        "cargo": "Blockchain Developer",
+        "inicio": "2021-03",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de smart contracts e dApps."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFG",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "DeFi Protocol",
+        "link": "https://github.com/ricardo/defi-protocol",
+        "descricao": "Protocolo DeFi com TVL de $1M+."
+      }
+    ],
+    "certificacoes": ["Ethereum Developer"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["DeFi", "Smart Contracts", "Web3"]
+  },
+  {
+    "id": 15,
+    "nome": "Amanda Lima",
+    "foto": "",
+    "cargo": "AI Engineer",
+    "resumo": "Engenheira de IA especializada em modelos de linguagem natural.",
+    "localizacao": "Natal/RN",
+    "area": "Artificial Intelligence",
+    "habilidadesTecnicas": ["Python", "TensorFlow", "PyTorch", "NLP", "Transformers"],
+    "softSkills": ["Pesquisa", "Inovação", "Pensamento algorítmico"],
+    "experiencias": [
+      {
+        "empresa": "AI Research Lab",
+        "cargo": "AI Engineer",
+        "inicio": "2020-09",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de modelos de machine learning avançados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Inteligência Artificial",
+        "instituicao": "UFRN",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Chatbot Inteligente",
+        "link": "https://github.com/amanda/smart-chatbot",
+        "descricao": "Chatbot com NLP para atendimento ao cliente."
+      }
+    ],
+    "certificacoes": ["TensorFlow Developer"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["NLP", "Deep Learning", "Computer Vision"]
+  },
+  {
+    "id": 16,
+    "nome": "Marcos Silva",
+    "foto": "",
+    "cargo": "Site Reliability Engineer",
+    "resumo": "SRE com foco em reliability engineering e observability.",
+    "localizacao": "Belém/PA",
+    "area": "SRE",
+    "habilidadesTecnicas": ["Prometheus", "Grafana", "ELK Stack", "Kubernetes", "Go"],
+    "softSkills": ["Resiliência", "Proatividade", "Pensamento sistêmico"],
+    "experiencias": [
+      {
+        "empresa": "Reliability Systems",
+        "cargo": "Site Reliability Engineer",
+        "inicio": "2020-05",
+        "fim": "2024-12",
+        "descricao": "Garantia de confiabilidade e performance de sistemas críticos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia Elétrica",
+        "instituicao": "UFPA",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Sistema de Monitoring",
+        "link": "https://github.com/marcos/monitoring-system",
+        "descricao": "Sistema que reduziu downtime em 99.9%."
+      }
+    ],
+    "certificacoes": ["Google SRE"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Observability", "Performance", "Incident Management"]
+  },
+  {
+    "id": 17,
+    "nome": "Vanessa Costa",
+    "foto": "",
+    "cargo": "Technical Writer",
+    "resumo": "Escritora técnica com background em desenvolvimento e documentação.",
+    "localizacao": "Maceió/AL",
+    "area": "Documentation",
+    "habilidadesTecnicas": ["Markdown", "Git", "API Documentation", "Swagger", "Diátrix"],
+    "softSkills": ["Clareza", "Empatia com usuário", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "DocTech",
+        "cargo": "Technical Writer",
+        "inicio": "2021-01",
+        "fim": "2024-12",
+        "descricao": "Criação e manutenção de documentação técnica."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Letras - Inglês",
+        "instituicao": "UFAL",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "API Documentation Portal",
+        "link": "https://docs.company.com/api",
+        "descricao": "Portal completo de documentação de APIs."
+      }
+    ],
+    "certificacoes": ["Technical Writing Certification"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"},
+      {"idioma": "Espanhol", "nivel": "Intermediário"}
+    ],
+    "arealinteresses": ["API Documentation", "User Guides", "Knowledge Management"]
+  },
+  {
+    "id": 18,
+    "nome": "Leonardo Almeida",
+    "foto": "",
+    "cargo": "Game Developer",
+    "resumo": "Desenvolvedor de games com experiência em Unity e Unreal Engine.",
+    "localizacao": "João Pessoa/PB",
+    "area": "Game Development",
+    "habilidadesTecnicas": ["Unity", "Unreal Engine", "C#", "C++", "3D Modeling"],
+    "softSkills": ["Criatividade", "Trabalho em equipe", "Paciência"],
+    "experiencias": [
+      {
+        "empresa": "Game Studios",
+        "cargo": "Game Developer",
+        "inicio": "2020-08",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de jogos para múltiplas plataformas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design de Games",
+        "instituicao": "UFPB",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Jogo Indie",
+        "link": "https://store.steam.com/game/indie",
+        "descricao": "Jogo indie com mais de 50k downloads."
+      }
+    ],
+    "certificacoes": ["Unity Certified Developer"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Game Design", "VR/AR", "Game Physics"]
+  },
+  {
+    "id": 19,
+    "nome": "Tatiane Rocha",
+    "foto": "",
+    "cargo": "Database Administrator",
+    "resumo": "Administradora de bancos de dados com expertise em performance tuning.",
+    "localizacao": "Teresina/PI",
+    "area": "Database",
+    "habilidadesTecnicas": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "SQL Server"],
+    "softSkills": ["Metódica", "Analítica", "Paciente"],
+    "experiencias": [
+      {
+        "empresa": "Data Management Inc",
+        "cargo": "Database Administrator",
+        "inicio": "2019-12",
+        "fim": "2024-12",
+        "descricao": "Administração e otimização de bancos de dados críticos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFPI",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Sistema de Backup",
+        "link": "https://github.com/tatiane/backup-system",
+        "descricao": "Sistema automatizado de backup e recovery."
+      }
+    ],
+    "certificacoes": ["Oracle DBA", "MongoDB Certified"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Database Performance", "Data Modeling", "Big Data"]
+  },
+  {
+    "id": 20,
+    "nome": "Roberto Santos",
+    "foto": "",
+    "cargo": "Network Engineer",
+    "resumo": "Engenheiro de redes com expertise em infraestrutura de telecomunicações.",
+    "localizacao": "Cuiabá/MT",
+    "area": "Networking",
+    "habilidadesTecnicas": ["Cisco", "Juniper", "MPLS", "BGP", "Firewalls"],
+    "softSkills": ["Resolução de problemas", "Planejamento", "Visão estratégica"],
+    "experiencias": [
+      {
+        "empresa": "NetSolutions",
+        "cargo": "Network Engineer",
+        "inicio": "2020-04",
+        "fim": "2024-12",
+        "descricao": "Projeto e implementação de infraestrutura de rede."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Redes de Computadores",
+        "instituicao": "UFMT",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Rede Campus",
+        "link": "https://github.com/roberto/campus-network",
+        "descricao": "Implementação de rede para campus universitário."
+      }
+    ],
+    "certificacoes": ["CCNA", "CCNP"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Network Security", "SD-WAN", "5G"]
+  },
+  {
+    "id": 21,
+    "nome": "Isabela Martins",
+    "foto": "",
+    "cargo": "Frontend Developer",
+    "resumo": "Desenvolvedora frontend com foco em acessibilidade e performance.",
+    "localizacao": "São Luís/MA",
+    "area": "Frontend",
+    "habilidadesTecnicas": ["Vue.js", "JavaScript", "SASS", "Web Accessibility", "PWA"],
+    "softSkills": ["Empatia", "Detalhista", "Comunicativa"],
+    "experiencias": [
+      {
+        "empresa": "Web Solutions",
+        "cargo": "Frontend Developer",
+        "inicio": "2021-02",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de interfaces acessíveis e performáticas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "UFMA",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Design System",
+        "link": "https://github.com/isabela/design-system",
+        "descricao": "Design system utilizado por 50+ desenvolvedores."
+      }
+    ],
+    "certificacoes": ["Web Accessibility Specialist"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Accessibility", "Performance", "Design Systems"]
+  },
+  {
+    "id": 22,
+    "nome": "Felipe Costa",
+    "foto": "",
+    "cargo": "Backend Developer",
+    "resumo": "Desenvolvedor backend especializado em Java e sistemas distribuídos.",
+    "localizacao": "Campo Grande/MS",
+    "area": "Backend",
+    "habilidadesTecnicas": ["Java", "Spring Boot", "Kafka", "Microservices", "Redis"],
+    "softSkills": ["Lógica", "Persistência", "Colaboração"],
+    "experiencias": [
+      {
+        "empresa": "Enterprise Systems",
+        "cargo": "Backend Developer",
+        "inicio": "2020-06",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de sistemas backend para enterprise."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "UFMS",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Sistema de Mensageria",
+        "link": "https://github.com/felipe/messaging-system",
+        "descricao": "Sistema que processa 1M+ mensagens/dia."
+      }
+    ],
+    "certificacoes": ["Java Oracle Certified"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Microservices", "Event-driven Architecture", "Java Ecosystem"]
+  },
+  {
+    "id": 23,
+    "nome": "Gabriela Lima",
+    "foto": "",
+    "cargo": "UX Researcher",
+    "resumo": "Pesquisadora de UX com background em psicologia e design centrado no usuário.",
+    "localizacao": "Porto Velho/RO",
+    "area": "UX Research",
+    "habilidadesTecnicas": ["User Interviews", "Surveys", "Usability Testing", "Data Analysis", "Personas"],
+    "softSkills": ["Empatia", "Curiosidade", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "User Insights",
+        "cargo": "UX Researcher",
+        "inicio": "2021-03",
+        "fim": "2024-12",
+        "descricao": "Pesquisa qualitativa e quantitativa com usuários."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Psicologia",
+        "instituicao": "UNIR",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Estudo de Usabilidade",
+        "link": "https://uxresearch.com/study-2023",
+        "descricao": "Estudo que identificou 15 pontos de melhoria no produto."
+      }
+    ],
+    "certificacoes": ["NN/g UX Certification"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["User Research", "Usability", "Human-Computer Interaction"]
+  },
+  {
+    "id": 24,
+    "nome": "Eduardo Silva",
+    "foto": "",
+    "cargo": "System Administrator",
+    "resumo": "Administrador de sistemas com expertise em Linux e virtualização.",
+    "localizacao": "Boa Vista/RR",
+    "area": "SysAdmin",
+    "habilidadesTecnicas": ["Linux", "VMware", "Bash", "Ansible", "Zabbix"],
+    "softSkills": ["Proatividade", "Organização", "Resolução de crises"],
+    "experiencias": [
+      {
+        "empresa": "IT Infrastructure",
+        "cargo": "System Administrator",
+        "inicio": "2020-01",
+        "fim": "2024-12",
+        "descricao": "Administração de servidores e infraestrutura crítica."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Redes de Computadores",
+        "instituicao": "UFRR",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Automação de Deploy",
+        "link": "https://github.com/eduardo/deploy-automation",
+        "descricao": "Sistema que automatizou 90% dos deploys manuais."
+      }
+    ],
+    "certificacoes": ["RHCE", "Linux Professional"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Intermediário"}
+    ],
+    "arealinteresses": ["Linux", "Automation", "Infrastructure as Code"]
+  },
+  {
+    "id": 25,
+    "nome": "Laura Mendes",
+    "foto": "",
+    "cargo": "Business Analyst",
+    "resumo": "Analista de negócios com experiência em elicitação de requisitos e BPMN.",
+    "localizacao": "Palmas/TO",
+    "area": "Business Analysis",
+    "habilidadesTecnicas": ["BPMN", "UML", "SQL", "Excel", "Visio"],
+    "softSkills": ["Comunicação", "Negociação", "Pensamento analítico"],
+    "experiencias": [
+      {
+        "empresa": "Business Solutions",
+        "cargo": "Business Analyst",
+        "inicio": "2020-08",
+        "fim": "2024-12",
+        "descricao": "Análise de processos de negócio e elicitação de requisitos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "UFTO",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Otimização de Processos",
+        "link": "https://businesscase.com/optimization",
+        "descricao": "Projeto que reduziu tempo de processo em 40%."
+      }
+    ],
+    "certificacoes": ["CBAP"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Process Optimization", "Requirements Engineering", "BPM"]
+  },
+  {
+    "id": 26,
+    "nome": "Rodrigo Alves",
+    "foto": "",
+    "cargo": "IT Project Manager",
+    "resumo": "Gerente de projetos de TI com certificação PMP e experiência em grandes implementações.",
+    "localizacao": "Macapá/AP",
+    "area": "Project Management",
+    "habilidadesTecnicas": ["MS Project", "JIRA", "Prince2", "Risk Management", "Budgeting"],
+    "softSkills": ["Liderança", "Gestão de stakeholders", "Planejamento"],
+    "experiencias": [
+      {
+        "empresa": "Project Management Office",
+        "cargo": "IT Project Manager",
+        "inicio": "2019-11",
+        "fim": "2024-12",
+        "descricao": "Gestão de projetos de TI de grande porte."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Produção",
+        "instituicao": "UNIFAP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "ERP Implementation",
+        "link": "https://pmcase.com/erp-implementation",
+        "descricao": "Implementação de ERP em empresa com 500 usuários."
+      }
+    ],
+    "certificacoes": ["PMP", "Prince2 Practitioner"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Project Management", "IT Governance", "Risk Management"]
+  },
+  {
+    "id": 27,
+    "nome": "Beatriz Costa",
+    "foto": "",
+    "cargo": "Digital Marketing Specialist",
+    "resumo": "Especialista em marketing digital com foco em SEO e analytics.",
+    "localizacao": "Rio Branco/AC",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Google Analytics", "SEO", "SEM", "Social Media", "Google Ads"],
+    "softSkills": ["Criatividade", "Analítico", "Comunicativo"],
+    "experiencias": [
+      {
+        "empresa": "Digital Agency",
+        "cargo": "Digital Marketing Specialist",
+        "inicio": "2020-05",
+        "fim": "2024-12",
+        "descricao": "Gestão de campanhas digitais e estratégias de marketing."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Marketing",
+        "instituicao": "UFAC",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Campanha Viral",
+        "link": "https://marketingcase.com/viral-campaign",
+        "descricao": "Campanha que alcançou 1M+ de visualizações."
+      }
+    ],
+    "certificacoes": ["Google Analytics Certified"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["SEO", "Content Marketing", "Digital Analytics"]
+  },
+  {
+    "id": 28,
+    "nome": "Vinícius Rocha",
+    "foto": "",
+    "cargo": "IT Consultant",
+    "resumo": "Consultor de TI com expertise em transformação digital e otimização de processos.",
+    "localizacao": "Aracaju/SE",
+    "area": "Consulting",
+    "habilidadesTecnicas": ["ITIL", "COBIT", "Business Process", "Strategy", "Analytics"],
+    "softSkills": ["Consultoria", "Estratégia", "Comunicação executiva"],
+    "experiencias": [
+      {
+        "empresa": "Consulting Partners",
+        "cargo": "IT Consultant",
+        "inicio": "2020-03",
+        "fim": "2024-12",
+        "descricao": "Consultoria em transformação digital para empresas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFS",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Digital Transformation",
+        "link": "https://consultingcase.com/digital-transformation",
+        "descricao": "Projeto de transformação digital para varejo."
+      }
+    ],
+    "certificacoes": ["ITIL Expert", "CISA"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"},
+      {"idioma": "Espanhol", "nivel": "Intermediário"}
+    ],
+    "arealinteresses": ["Digital Transformation", "IT Strategy", "Business-IT Alignment"]
+  },
+  {
+    "id": 29,
+    "nome": "Daniela Santos",
+    "foto": "",
+    "cargo": "Frontend Developer",
+    "resumo": "Desenvolvedora frontend especializada em Vue.js e performance optimization.",
+    "localizacao": "São Paulo/SP",
+    "area": "Frontend",
+    "habilidadesTecnicas": ["Vue.js", "JavaScript", "Nuxt.js", "Webpack", "Jest"],
+    "softSkills": ["Detalhista", "Colaborativa", "Proativa"],
+    "experiencias": [
+      {
+        "empresa": "Web Innovations",
+        "cargo": "Frontend Developer",
+        "inicio": "2021-01",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de aplicações Vue.js de alta performance."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "SPA Enterprise",
+        "link": "https://github.com/daniela/spa-enterprise",
+        "descricao": "Single Page Application para sistema corporativo."
+      }
+    ],
+    "certificacoes": ["Vue.js Certified Developer"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Vue.js", "Performance", "Component Libraries"]
+  },
+  {
+    "id": 30,
+    "nome": "André Pereira",
+    "foto": "",
+    "cargo": "Backend Developer",
+    "resumo": "Desenvolvedor backend com expertise em Python e arquitetura de APIs.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Backend",
+    "habilidadesTecnicas": ["Python", "Django", "Flask", "FastAPI", "PostgreSQL"],
+    "softSkills": ["Lógica", "Resolução de problemas", "Trabalho em equipe"],
+    "experiencias": [
+      {
+        "empresa": "API Solutions",
+        "cargo": "Backend Developer",
+        "inicio": "2020-07",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de APIs RESTful e GraphQL."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "UFMG",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "API Gateway",
+        "link": "https://github.com/andre/api-gateway",
+        "descricao": "Gateway que orquestra 50+ microservices."
+      }
+    ],
+    "certificacoes": ["Python Institute Certified"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Python", "API Design", "Microservices"]
+  },
+  {
+    "id": 31,
+    "nome": "Carolina Martins",
+    "foto": "",
+    "cargo": "Product Designer",
+    "resumo": "Product designer com foco em design thinking e experiência do usuário.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Design",
+    "habilidadesTecnicas": ["Figma", "Sketch", "InVision", "Design Thinking", "Prototyping"],
+    "softSkills": ["Empatia", "Criatividade", "Colaboração"],
+    "experiencias": [
+      {
+        "empresa": "Product Design Co",
+        "cargo": "Product Designer",
+        "inicio": "2020-04",
+        "fim": "2024-12",
+        "descricao": "Design de produtos digitais com foco na experiência do usuário."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design",
+        "instituicao": "UDESC",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Redesign de Produto",
+        "link": "https://behance.net/carolina/product-redesign",
+        "descricao": "Redesign que aumentou a satisfação do usuário em 35%."
+      }
+    ],
+    "certificacoes": ["Design Thinking Certificate"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Product Design", "UX", "Design Systems"]
+  },
+  {
+    "id": 32,
+    "nome": "Gustavo Henrique",
+    "foto": "",
+    "cargo": "Data Engineer",
+    "resumo": "Engenheiro de dados especializado em pipelines de dados e ETL.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Data Engineering",
+    "habilidadesTecnicas": ["Python", "Apache Spark", "Airflow", "Kafka", "Hadoop"],
+    "softSkills": ["Pensamento analítico", "Organização", "Visão sistêmica"],
+    "experiencias": [
+      {
+        "empresa": "Data Pipeline Inc",
+        "cargo": "Data Engineer",
+        "inicio": "2020-09",
+        "fim": "2024-12",
+        "descricao": "Construção e manutenção de pipelines de dados em larga escala."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFRGS",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Pipeline de Dados em Tempo Real",
+        "link": "https://github.com/gustavo/real-time-pipeline",
+        "descricao": "Pipeline que processa 1TB de dados diariamente."
+      }
+    ],
+    "certificacoes": ["AWS Data Analytics"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Data Pipelines", "Big Data", "Real-time Processing"]
+  },
+  {
+    "id": 33,
+    "nome": "Renata Oliveira",
+    "foto": "",
+    "cargo": "DevOps Engineer",
+    "resumo": "Engenheira DevOps com expertise em Kubernetes e infraestrutura cloud.",
+    "localizacao": "Curitiba/PR",
+    "area": "DevOps",
+    "habilidadesTecnicas": ["Kubernetes", "Helm", "Prometheus", "GitLab CI", "AWS"],
+    "softSkills": ["Proatividade", "Organização", "Trabalho em equipe"],
+    "experiencias": [
+      {
+        "empresa": "Cloud Native Solutions",
+        "cargo": "DevOps Engineer",
+        "inicio": "2021-02",
+        "fim": "2024-12",
+        "descricao": "Implementação e manutenção de infraestrutura cloud native."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia da Computação",
+        "instituicao": "UTFPR",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Cluster Kubernetes",
+        "link": "https://github.com/renata/k8s-cluster",
+        "descricao": "Cluster que hospeda 100+ microservices."
+      }
+    ],
+    "certificacoes": ["CKA", "CKAD"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Kubernetes", "Cloud Native", "GitOps"]
+  },
+  {
+    "id": 34,
+    "nome": "Sérgio Lima",
+    "foto": "",
+    "cargo": "Security Analyst",
+    "resumo": "Analista de segurança com foco em SOC e resposta a incidentes.",
+    "localizacao": "Brasília/DF",
+    "area": "Security",
+    "habilidadesTecnicas": ["SIEM", "SOC", "Incident Response", "Threat Hunting", "Splunk"],
+    "softSkills": ["Analítico", "Calmo sob pressão", "Metódico"],
+    "experiencias": [
+      {
+        "empresa": "Security Operations Center",
+        "cargo": "Security Analyst",
+        "inicio": "2020-06",
+        "fim": "2024-12",
+        "descricao": "Monitoramento e resposta a incidentes de segurança."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Segurança da Informação",
+        "instituicao": "UnB",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Playbook de Incidentes",
+        "link": "https://github.com/sergio/incident-playbook",
+        "descricao": "Playbook utilizado por toda a equipe de SOC."
+      }
+    ],
+    "certificacoes": ["Security+", "CySA+"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["SOC", "Threat Intelligence", "Incident Response"]
+  },
+  {
+    "id": 35,
+    "nome": "Tânia Costa",
+    "foto": "",
+    "cargo": "QA Automation Engineer",
+    "resumo": "Engenheira de automação de testes com expertise em frameworks de teste.",
+    "localizacao": "Salvador/BA",
+    "area": "QA",
+    "habilidadesTecnicas": ["Selenium", "Cypress", "RestAssured", "TestNG", "Jenkins"],
+    "softSkills": ["Atenção a detalhes", "Organização", "Pensamento crítico"],
+    "experiencias": [
+      {
+        "empresa": "Test Automation Ltd",
+        "cargo": "QA Automation Engineer",
+        "inicio": "2020-03",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento e manutenção de frameworks de automação."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFBA",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Framework de Testes E2E",
+        "link": "https://github.com/tania/e2e-framework",
+        "descricao": "Framework que reduziu tempo de testes em 70%."
+      }
+    ],
+    "certificacoes": ["ISTQB Advanced"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Test Automation", "CI/CD", "Quality Engineering"]
+  },
+  {
+    "id": 36,
+    "nome": "Paulo Ricardo",
+    "foto": "",
+    "cargo": "Mobile Developer",
+    "resumo": "Desenvolvedor mobile especializado em Flutter e desenvolvimento cross-platform.",
+    "localizacao": "Recife/PE",
+    "area": "Mobile",
+    "habilidadesTecnicas": ["Flutter", "Dart", "Firebase", "Bloc", "GetX"],
+    "softSkills": ["Versatilidade", "Criatividade", "Adaptabilidade"],
+    "experiencias": [
+      {
+        "empresa": "Mobile First",
+        "cargo": "Mobile Developer",
+        "inicio": "2021-01",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de aplicativos móveis com Flutter."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFPE",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App Financeiro",
+        "link": "https://github.com/paulo/finance-app",
+        "descricao": "Aplicativo com 50k+ usuários ativos."
+      }
+    ],
+    "certificacoes": ["Flutter Certified"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Flutter", "Cross-platform", "Mobile Architecture"]
+  },
+  {
+    "id": 37,
+    "nome": "Mônica Silva",
+    "foto": "",
+    "cargo": "Business Intelligence Analyst",
+    "resumo": "Analista de BI com expertise em modelagem de dados e dashboards.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Business Intelligence",
+    "habilidadesTecnicas": ["Power BI", "SQL", "DAX", "Data Modeling", "ETL"],
+    "softSkills": ["Analítico", "Comunicativo", "Orientado a detalhes"],
+    "experiencias": [
+      {
+        "empresa": "BI Solutions",
+        "cargo": "Business Intelligence Analyst",
+        "inicio": "2020-08",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de soluções de business intelligence."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Estatística",
+        "instituicao": "UFC",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard Corporativo",
+        "link": "https://github.com/monica/corporate-dashboard",
+        "descricao": "Dashboard utilizado pela diretoria para tomada de decisão."
+      }
+    ],
+    "certificacoes": ["Microsoft Power BI Certified"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Business Intelligence", "Data Visualization", "Analytics"]
+  },
+  {
+    "id": 38,
+    "nome": "Ricardo Almeida",
+    "foto": "",
+    "cargo": "Cloud Engineer",
+    "resumo": "Engenheiro de cloud com expertise em AWS e arquitetura serverless.",
+    "localizacao": "São Paulo/SP",
+    "area": "Cloud",
+    "habilidadesTecnicas": ["AWS", "Serverless", "Lambda", "API Gateway", "DynamoDB"],
+    "softSkills": ["Inovação", "Proatividade", "Visão arquitetural"],
+    "experiencias": [
+      {
+        "empresa": "Cloud Engineering Co",
+        "cargo": "Cloud Engineer",
+        "inicio": "2020-05",
+        "fim": "2024-12",
+        "descricao": "Implementação de soluções cloud e serverless."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Arquitetura Serverless",
+        "link": "https://github.com/ricardo/serverless-arch",
+        "descricao": "Arquitetura que reduziu custos em 60%."
+      }
+    ],
+    "certificacoes": ["AWS Developer Associate"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Serverless", "AWS", "Cloud Architecture"]
+  },
+  {
+    "id": 39,
+    "nome": "Fernanda Rocha",
+    "foto": "",
+    "cargo": "UX Writer",
+    "resumo": "UX Writer especializada em conteúdo para interfaces e microcopy.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "UX Writing",
+    "habilidadesTecnicas": ["Content Strategy", "Microcopy", "UX Writing", "Content Design", "A/B Testing"],
+    "softSkills": ["Comunicação", "Empatia", "Criatividade"],
+    "experiencias": [
+      {
+        "empresa": "Content Design Studio",
+        "cargo": "UX Writer",
+        "inicio": "2021-03",
+        "fim": "2024-12",
+        "descricao": "Criação de conteúdo para interfaces e experiência do usuário."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Letras",
+        "instituicao": "UFRJ",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Sistema de Design de Conteúdo",
+        "link": "https://contentdesign.com/system",
+        "descricao": "Sistema de conteúdo utilizado por toda a empresa."
+      }
+    ],
+    "certificacoes": ["UX Writing Certificate"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"},
+      {"idioma": "Espanhol", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["UX Writing", "Content Design", "Microcopy"]
+  },
+  {
+    "id": 40,
+    "nome": "Alexandre Costa",
+    "foto": "",
+    "cargo": "Data Scientist",
+    "resumo": "Cientista de dados especializado em machine learning e análise preditiva.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Data Science",
+    "habilidadesTecnicas": ["Python", "Scikit-learn", "Pandas", "MLflow", "XGBoost"],
+    "softSkills": ["Pensamento analítico", "Curiosidade", "Comunicação técnica"],
+    "experiencias": [
+      {
+        "empresa": "ML Solutions",
+        "cargo": "Data Scientist",
+        "inicio": "2020-07",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de modelos de machine learning."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFMG",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Modelo de Churn",
+        "link": "https://github.com/alexandre/churn-model",
+        "descricao": "Modelo que previu churn com 85% de precisão."
+      }
+    ],
+    "certificacoes": ["AWS Machine Learning"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Machine Learning", "Predictive Analytics", "MLOps"]
+  },
+  {
+    "id": 41,
+    "nome": "Cristina Santos",
+    "foto": "",
+    "cargo": "Frontend Developer",
+    "resumo": "Desenvolvedora frontend com expertise em React e testes.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Frontend",
+    "habilidadesTecnicas": ["React", "TypeScript", "Jest", "Testing Library", "Webpack"],
+    "softSkills": ["Detalhista", "Colaborativa", "Proativa"],
+    "experiencias": [
+      {
+        "empresa": "React Experts",
+        "cargo": "Frontend Developer",
+        "inicio": "2020-09",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de aplicações React de alta qualidade."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFRGS",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Component Library",
+        "link": "https://github.com/cristina/component-library",
+        "descricao": "Biblioteca de componentes reutilizáveis."
+      }
+    ],
+    "certificacoes": ["React Certification"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["React", "Testing", "Component Architecture"]
+  },
+  {
+    "id": 42,
+    "nome": "Roberto Lima",
+    "foto": "",
+    "cargo": "Backend Developer",
+    "resumo": "Desenvolvedor backend especializado em Node.js e microservices.",
+    "localizacao": "Curitiba/PR",
+    "area": "Backend",
+    "habilidadesTecnicas": ["Node.js", "Express", "NestJS", "MongoDB", "Redis"],
+    "softSkills": ["Lógica", "Resolução de problemas", "Trabalho em equipe"],
+    "experiencias": [
+      {
+        "empresa": "Node Solutions",
+        "cargo": "Backend Developer",
+        "inicio": "2020-06",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de APIs e microservices com Node.js."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "UTFPR",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "API Gateway",
+        "link": "https://github.com/roberto/api-gateway",
+        "descricao": "Gateway para orquestração de microservices."
+      }
+    ],
+    "certificacoes": ["Node.js Certified"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Node.js", "Microservices", "API Design"]
+  },
+  {
+    "id": 43,
+    "nome": "Patrícia Mendes",
+    "foto": "",
+    "cargo": "UX Researcher",
+    "resumo": "Pesquisadora de UX com expertise em métodos qualitativos e quantitativos.",
+    "localizacao": "Brasília/DF",
+    "area": "UX Research",
+    "habilidadesTecnicas": ["User Interviews", "Surveys", "Usability Testing", "Data Analysis", "Personas"],
+    "softSkills": ["Empatia", "Curiosidade", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "UX Research Lab",
+        "cargo": "UX Researcher",
+        "inicio": "2020-04",
+        "fim": "2024-12",
+        "descricao": "Pesquisa com usuários para melhorar produtos digitais."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Psicologia",
+        "instituicao": "UnB",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Estudo de Usabilidade",
+        "link": "https://uxresearch.com/study-2023",
+        "descricao": "Estudo que identificou pontos críticos de usabilidade."
+      }
+    ],
+    "certificacoes": ["NN/g UX Certification"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["User Research", "Usability", "Human-Computer Interaction"]
+  },
+  {
+    "id": 44,
+    "nome": "Marcelo Oliveira",
+    "foto": "",
+    "cargo": "Data Engineer",
+    "resumo": "Engenheiro de dados especializado em data lakes e processamento de big data.",
+    "localizacao": "Salvador/BA",
+    "area": "Data Engineering",
+    "habilidadesTecnicas": ["Apache Spark", "Hadoop", "Hive", "Airflow", "Python"],
+    "softSkills": ["Pensamento analítico", "Organização", "Visão sistêmica"],
+    "experiencias": [
+      {
+        "empresa": "Big Data Solutions",
+        "cargo": "Data Engineer",
+        "inicio": "2020-08",
+        "fim": "2024-12",
+        "descricao": "Construção de data lakes e pipelines de big data."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFBA",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Data Lake Enterprise",
+        "link": "https://github.com/marcelo/data-lake",
+        "descricao": "Data lake que armazena 10TB de dados."
+      }
+    ],
+    "certificacoes": ["AWS Big Data"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Big Data", "Data Lakes", "Data Processing"]
+  },
+  {
+    "id": 45,
+    "nome": "Luciana Costa",
+    "foto": "",
+    "cargo": "Product Manager",
+    "resumo": "Product manager com experiência em produtos B2B e estratégia de produto.",
+    "localizacao": "Recife/PE",
+    "area": "Product",
+    "habilidadesTecnicas": ["Product Strategy", "Roadmapping", "Analytics", "A/B Testing", "SQL"],
+    "softSkills": ["Liderança", "Visão estratégica", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Product Strategy Co",
+        "cargo": "Product Manager",
+        "inicio": "2020-03",
+        "fim": "2024-12",
+        "descricao": "Gestão de produto e definição de estratégia."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "UFPE",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Lançamento de Produto B2B",
+        "link": "https://product.com/b2b-launch",
+        "descricao": "Produto que gerou $1M em receita no primeiro ano."
+      }
+    ],
+    "certificacoes": ["Pragmatic Marketing"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Product Strategy", "B2B", "Product Analytics"]
+  },
+  {
+    "id": 46,
+    "nome": "Rafaela Silva",
+    "foto": "",
+    "cargo": "DevOps Engineer",
+    "resumo": "Engenheira DevOps com expertise em GitOps e infraestrutura como código.",
+    "localizacao": "Fortaleza/CE",
+    "area": "DevOps",
+    "habilidadesTecnicas": ["GitOps", "ArgoCD", "Terraform", "Kubernetes", "AWS"],
+    "softSkills": ["Proatividade", "Organização", "Trabalho em equipe"],
+    "experiencias": [
+      {
+        "empresa": "GitOps Solutions",
+        "cargo": "DevOps Engineer",
+        "inicio": "2021-02",
+        "fim": "2024-12",
+        "descricao": "Implementação de práticas GitOps e IaC."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia da Computação",
+        "instituicao": "UFC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Pipeline GitOps",
+        "link": "https://github.com/rafaela/gitops-pipeline",
+        "descricao": "Pipeline que automatizou 100% dos deploys."
+      }
+    ],
+    "certificacoes": ["Terraform Associate"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["GitOps", "Infrastructure as Code", "Cloud Native"]
+  },
+  {
+    "id": 47,
+    "nome": "Diego Alves",
+    "foto": "",
+    "cargo": "Security Engineer",
+    "resumo": "Engenheiro de segurança com expertise em cloud security e compliance.",
+    "localizacao": "São Paulo/SP",
+    "area": "Security",
+    "habilidadesTecnicas": ["Cloud Security", "Compliance", "CIS Benchmarks", "AWS Security", "Azure Security"],
+    "softSkills": ["Analítico", "Metódico", "Ético"],
+    "experiencias": [
+      {
+        "empresa": "Cloud Security Inc",
+        "cargo": "Security Engineer",
+        "inicio": "2020-07",
+        "fim": "2024-12",
+        "descricao": "Proteção de infraestrutura cloud e conformidade com regulamentações."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Segurança da Informação",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Framework de Compliance",
+        "link": "https://github.com/diego/compliance-framework",
+        "descricao": "Framework que garantiu conformidade com LGPD."
+      }
+    ],
+    "certificacoes": ["CCSP", "CISSP"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Cloud Security", "Compliance", "Security Governance"]
+  },
+  {
+    "id": 48,
+    "nome": "Camila Santos",
+    "foto": "",
+    "cargo": "QA Engineer",
+    "resumo": "Engenheira de qualidade com expertise em testes de performance.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "QA",
+    "habilidadesTecnicas": ["JMeter", "Load Testing", "Performance Testing", "Gatling", "New Relic"],
+    "softSkills": ["Atenção a detalhes", "Analítico", "Metódico"],
+    "experiencias": [
+      {
+        "empresa": "Performance Testing Co",
+        "cargo": "QA Engineer",
+        "inicio": "2020-05",
+        "fim": "2024-12",
+        "descricao": "Execução de testes de performance e carga."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFRJ",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Teste de Carga em E-commerce",
+        "link": "https://github.com/camila/load-testing",
+        "descricao": "Testes que identificaram gargalos críticos."
+      }
+    ],
+    "certificacoes": ["ISTQB Performance Testing"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Performance Testing", "Load Testing", "Application Monitoring"]
+  },
+  {
+    "id": 49,
+    "nome": "Bruno Costa",
+    "foto": "",
+    "cargo": "Mobile Developer",
+    "resumo": "Desenvolvedor mobile especializado em React Native e TypeScript.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Mobile",
+    "habilidadesTecnicas": ["React Native", "TypeScript", "Redux", "Firebase", "Jest"],
+    "softSkills": ["Adaptabilidade", "Criatividade", "Foco no usuário"],
+    "experiencias": [
+      {
+        "empresa": "Mobile Dev Studio",
+        "cargo": "Mobile Developer",
+        "inicio": "2020-09",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de aplicativos móveis com React Native."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFMG",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App de Saúde",
+        "link": "https://github.com/bruno/health-app",
+        "descricao": "Aplicativo com 100k+ downloads na Play Store."
+      }
+    ],
+    "certificacoes": ["React Native Certification"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["React Native", "Cross-platform", "Mobile Architecture"]
+  },
+  {
+    "id": 50,
+    "nome": "Amanda Rodrigues",
+    "foto": "",
+    "cargo": "Data Analyst",
+    "resumo": "Analista de dados com expertise em SQL e visualização de dados.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Data Analysis",
+    "habilidadesTecnicas": ["SQL", "Tableau", "Excel", "Python", "Statistics"],
+    "softSkills": ["Analítico", "Comunicativo", "Orientado a detalhes"],
+    "experiencias": [
+      {
+        "empresa": "Data Analytics Team",
+        "cargo": "Data Analyst",
+        "inicio": "2020-06",
+        "fim": "2024-12",
+        "descricao": "Análise de dados e criação de relatórios para negócios."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Estatística",
+        "instituicao": "UFRGS",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard de Vendas",
+        "link": "https://github.com/amanda/sales-dashboard",
+        "descricao": "Dashboard que aumentou a eficiência da equipe de vendas."
+      }
+    ],
+    "certificacoes": ["Google Data Analytics"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Data Analysis", "Business Intelligence", "Data Visualization"]
+  },
+  {
+    "id": 51,
+    "nome": "Ricardo Martins",
+    "foto": "",
+    "cargo": "Cloud Architect",
+    "resumo": "Arquiteto de cloud com expertise em multi-cloud e migrações.",
+    "localizacao": "Curitiba/PR",
+    "area": "Cloud",
+    "habilidadesTecnicas": ["AWS", "Azure", "GCP", "Terraform", "Kubernetes"],
+    "softSkills": ["Visão arquitetural", "Liderança técnica", "Estratégia"],
+    "experiencias": [
+      {
+        "empresa": "Multi-Cloud Solutions",
+        "cargo": "Cloud Architect",
+        "inicio": "2019-11",
+        "fim": "2024-12",
+        "descricao": "Arquitetura de soluções multi-cloud para enterprise."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia da Computação",
+        "instituicao": "UTFPR",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Migração Multi-cloud",
+        "link": "https://github.com/ricardo/multi-cloud-migration",
+        "descricao": "Migração de 300+ servidores para cloud."
+      }
+    ],
+    "certificacoes": ["AWS Solutions Architect Pro", "Azure Architect"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Multi-cloud", "Cloud Native", "Enterprise Architecture"]
+  },
+  {
+    "id": 52,
+    "nome": "Tatiane Oliveira",
+    "foto": "",
+    "cargo": "Scrum Master",
+    "resumo": "Scrum Master certificada com experiência em transformação ágil.",
+    "localizacao": "Brasília/DF",
+    "area": "Agile",
+    "habilidadesTecnicas": ["JIRA", "Confluence", "Miro", "Scrum", "Kanban"],
+    "softSkills": ["Facilitação", "Mediação", "Liderança servidora"],
+    "experiencias": [
+      {
+        "empresa": "Agile Consulting",
+        "cargo": "Scrum Master",
+        "inicio": "2020-02",
+        "fim": "2024-12",
+        "descricao": "Implementação de frameworks ágeis em múltiplos times."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Psicologia",
+        "instituicao": "UnB",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Transformação Ágil",
+        "link": "https://agilecase.com/transformacao",
+        "descricao": "Case de transformação ágil em empresa tradicional."
+      }
+    ],
+    "certificacoes": ["PSM I", "PSM II"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Agile Coaching", "Team Facilitation", "Organizational Agility"]
+  },
+  {
+    "id": 53,
+    "nome": "Leonardo Costa",
+    "foto": "",
+    "cargo": "Blockchain Developer",
+    "resumo": "Desenvolvedor blockchain com expertise em smart contracts e DeFi.",
+    "localizacao": "Salvador/BA",
+    "area": "Blockchain",
+    "habilidadesTecnicas": ["Solidity", "Web3.js", "Ethereum", "Smart Contracts", "Hardhat"],
+    "softSkills": ["Inovação", "Pensamento analítico", "Visão estratégica"],
+    "experiencias": [
+      {
+        "empresa": "BlockChain Solutions",
+        "cargo": "Blockchain Developer",
+        "inicio": "2021-03",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de smart contracts e aplicações descentralizadas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFBA",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Protocolo DeFi",
+        "link": "https://github.com/leonardo/defi-protocol",
+        "descricao": "Protocolo de finanças descentralizadas com TVL de $2M+."
+      }
+    ],
+    "certificacoes": ["Ethereum Developer Certification"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["DeFi", "Smart Contracts", "Web3"]
+  },
+  {
+    "id": 54,
+    "nome": "Marina Alves",
+    "foto": "",
+    "cargo": "AI Research Engineer",
+    "resumo": "Engenheira de pesquisa em IA especializada em computer vision.",
+    "localizacao": "Recife/PE",
+    "area": "Artificial Intelligence",
+    "habilidadesTecnicas": ["Python", "PyTorch", "OpenCV", "Computer Vision", "Deep Learning"],
+    "softSkills": ["Pesquisa", "Inovação", "Pensamento algorítmico"],
+    "experiencias": [
+      {
+        "empresa": "AI Research Institute",
+        "cargo": "AI Research Engineer",
+        "inicio": "2020-09",
+        "fim": "2024-12",
+        "descricao": "Pesquisa e desenvolvimento de modelos de visão computacional."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia da Computação",
+        "instituicao": "UFPE",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Sistema de Reconhecimento Facial",
+        "link": "https://github.com/marina/face-recognition",
+        "descricao": "Sistema com 98% de precisão em reconhecimento facial."
+      }
+    ],
+    "certificacoes": ["TensorFlow Developer Certificate"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "arealinteresses": ["Computer Vision", "Deep Learning", "AI Research"]
+  },
+  {
+    "id": 55,
+    "nome": "Rodrigo Santos",
+    "foto": "",
+    "cargo": "Site Reliability Engineer",
+    "resumo": "SRE com expertise em observability e performance optimization.",
+    "localizacao": "Fortaleza/CE",
+    "area": "SRE",
+    "habilidadesTecnicas": ["Prometheus", "Grafana", "Datadog", "Kubernetes", "Go"],
+    "softSkills": ["Resiliência", "Proatividade", "Pensamento sistêmico"],
+    "experiencias": [
+      {
+        "empresa": "Reliability Engineering",
+        "cargo": "Site Reliability Engineer",
+        "inicio": "2020-05",
+        "fim": "2024-12",
+        "descricao": "Garantia de confiabilidade e performance de sistemas críticos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "UFC",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma de Observability",
+        "link": "https://github.com/rodrigo/observability-platform",
+        "descricao": "Plataforma que monitora 500+ serviços em tempo real."
+      }
+    ],
+    "certificacoes": ["Google Cloud SRE"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Observability", "Performance", "Incident Management"]
+  },
+  {
+    "id": 56,
+    "nome": "Beatriz Lima",
+    "foto": "",
+    "cargo": "Technical Writer",
+    "resumo": "Escritora técnica especializada em documentação de APIs.",
+    "localizacao": "São Paulo/SP",
+    "area": "Documentation",
+    "habilidadesTecnicas": ["Markdown", "Git", "OpenAPI", "Swagger", "Postman"],
+    "softSkills": ["Clareza", "Empatia", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "API Documentation Co",
+        "cargo": "Technical Writer",
+        "inicio": "2021-01",
+        "fim": "2024-12",
+        "descricao": "Criação e manutenção de documentação técnica para APIs."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Letras - Português/Inglês",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Portal de Documentação",
+        "link": "https://docs.api-company.com",
+        "descricao": "Portal com documentação completa de 50+ APIs."
+      }
+    ],
+    "certificacoes": ["Technical Writing Professional"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Fluente"},
+      {"idioma": "Espanhol", "nivel": "Intermediário"}
+    ],
+    "arealinteresses": ["API Documentation", "Developer Experience", "Technical Content"]
+  },
+  {
+    "id": 57,
+    "nome": "Felipe Rodrigues",
+    "foto": "",
+    "cargo": "Game Developer",
+    "resumo": "Desenvolvedor de games especializado em Unity e C#.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Game Development",
+    "habilidadesTecnicas": ["Unity", "C#", "3D Modeling", "Shader Graph", "AR/VR"],
+    "softSkills": ["Criatividade", "Trabalho em equipe", "Paciência"],
+    "experiencias": [
+      {
+        "empresa": "Game Development Studio",
+        "cargo": "Game Developer",
+        "inicio": "2020-08",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de jogos para múltiplas plataformas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design de Games",
+        "instituicao": "UFRJ",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Jogo Mobile",
+        "link": "https://store.steam.com/game/mobile-game",
+        "descricao": "Jogo mobile com mais de 100k downloads."
+      }
+    ],
+    "certificacoes": ["Unity Certified Programmer"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Game Design", "AR/VR", "Game Optimization"]
+  },
+  {
+    "id": 58,
+    "nome": "Carla Silva",
+    "foto": "",
+    "cargo": "Database Administrator",
+    "resumo": "Administradora de bancos de dados com expertise em PostgreSQL.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Database",
+    "habilidadesTecnicas": ["PostgreSQL", "MySQL", "Redis", "MongoDB", "SQL Server"],
+    "softSkills": ["Metódica", "Analítica", "Paciente"],
+    "experiencias": [
+      {
+        "empresa": "Database Management Inc",
+        "cargo": "Database Administrator",
+        "inicio": "2019-12",
+        "fim": "2024-12",
+        "descricao": "Administração e otimização de bancos de dados críticos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFMG",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Sistema de Replicação",
+        "link": "https://github.com/carla/replication-system",
+        "descricao": "Sistema de replicação em tempo real para alta disponibilidade."
+      }
+    ],
+    "certificacoes": ["PostgreSQL Certified"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Database Performance", "High Availability", "Data Modeling"]
+  },
+  {
+    "id": 59,
+    "nome": "Eduardo Martins",
+    "foto": "",
+    "cargo": "Network Engineer",
+    "resumo": "Engenheiro de redes com expertise em segurança de rede.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Networking",
+    "habilidadesTecnicas": ["Cisco", "Firewalls", "MPLS", "BGP", "Network Security"],
+    "softSkills": ["Resolução de problemas", "Planejamento", "Visão estratégica"],
+    "experiencias": [
+      {
+        "empresa": "Network Security Solutions",
+        "cargo": "Network Engineer",
+        "inicio": "2020-04",
+        "fim": "2024-12",
+        "descricao": "Projeto e implementação de infraestrutura de rede segura."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Redes de Computadores",
+        "instituicao": "UFRGS",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Rede Segura Corporativa",
+        "link": "https://github.com/eduardo/secure-network",
+        "descricao": "Implementação de rede segura para empresa com 1000+ usuários."
+      }
+    ],
+    "certificacoes": ["CCNA Security", "CCNP"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Network Security", "SD-WAN", "Zero Trust"]
+  },
+  {
+    "id": 60,
+    "nome": "Isabela Costa",
+    "foto": "",
+    "cargo": "Frontend Developer",
+    "resumo": "Desenvolvedora frontend com foco em React e acessibilidade.",
+    "localizacao": "Curitiba/PR",
+    "area": "Frontend",
+    "habilidadesTecnicas": ["React", "TypeScript", "Next.js", "Web Accessibility", "Jest"],
+    "softSkills": ["Empatia", "Detalhista", "Comunicativa"],
+    "experiencias": [
+      {
+        "empresa": "Frontend Solutions",
+        "cargo": "Frontend Developer",
+        "inicio": "2021-02",
+        "fim": "2024-12",
+        "descricao": "Desenvolvimento de interfaces acessíveis e performáticas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "UTFPR",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Design System Acessível",
+        "link": "https://github.com/isabela/accessible-design-system",
+        "descricao": "Design system com foco em acessibilidade utilizado por 100+ devs."
+      }
+    ],
+    "certificacoes": ["Web Accessibility Specialist"],
+    "idiomas": [
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "arealinteresses": ["Accessibility", "React", "Design Systems"]
   }
 ]
+
+
