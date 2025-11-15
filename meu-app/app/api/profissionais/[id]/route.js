@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import profiles from '../../../../data/profiles.json'
+import profiles from '../../data/profiles.json';
 
 export async function GET(request, { params }) {
     try {
