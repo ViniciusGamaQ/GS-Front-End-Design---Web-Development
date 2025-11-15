@@ -41,6 +41,7 @@ Abra http://localhost:3000 no navegador
 
 ## 🌐 Deploy
 
+vercel https://gs-front-end-design-web-development.vercel.app
 
 ## 📂 Repositório
 
